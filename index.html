@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+
+
+
+    <form id="addNumber" onsubmit="addNumber(this.number.value, event)">
+        <label>Add a Number to the bank</label>
+        <input type="number" name="number">
+        <input type="submit" value="Add Number">
+    </form>
+
+        <h1>Number Banks</h1>
+        <div id="numberBank"></div>
+
+        <button id="sortOne" onclick="sortOne()">Sort One</button>
+        <button id="sortAll" onclick="sortAll()">Sort All</button>
+
+
+
+        <h1>Sorted Numbers</h1>
+        <h2>Odds</h2>
+        <div id="odds"></div>
+
+        <h2>Evens</h2>
+        <div id="evens"></div>
+
+
+
+
+</body>
+</html>
